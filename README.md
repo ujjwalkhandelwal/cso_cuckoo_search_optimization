@@ -82,63 +82,62 @@ maximum iteration)
 ```
 You will see the following similar output:
 ```py
-Iteration:   0  | best global fitness (cost): 18.298822
-Iteration:   1  | best global fitness (cost): 1.2203953
-Iteration:   2  | best global fitness (cost): 0.8178153
-Iteration:   3  | best global fitness (cost): 0.5902262
-Iteration:   4  | best global fitness (cost): 0.166928
-Iteration:   5  | best global fitness (cost): 0.0926638
-Iteration:   6  | best global fitness (cost): 0.0926638
-Iteration:   7  | best global fitness (cost): 0.0114517
-Iteration:   8  | best global fitness (cost): 0.0114517
-Iteration:   9  | best global fitness (cost): 0.0114517
-Iteration:   10 | best global fitness (cost): 0.0078867
-Iteration:   11 | best global fitness (cost): 0.0078867
-Iteration:   12 | best global fitness (cost): 0.0078867
-Iteration:   13 | best global fitness (cost): 0.0078867
-Iteration:   14 | best global fitness (cost): 0.0069544
-Iteration:   15 | best global fitness (cost): 0.0063058
-Iteration:   16 | best global fitness (cost): 0.0063058
-Iteration:   17 | best global fitness (cost): 0.0011039
-Iteration:   18 | best global fitness (cost): 0.0011039
-Iteration:   19 | best global fitness (cost): 0.0011039
-Iteration:   20 | best global fitness (cost): 0.0011039
-Iteration:   21 | best global fitness (cost): 0.0007225
-Iteration:   22 | best global fitness (cost): 0.0005875
-Iteration:   23 | best global fitness (cost): 0.0001595
-Iteration:   24 | best global fitness (cost): 0.0001595
-Iteration:   25 | best global fitness (cost): 0.0001595
-Iteration:   26 | best global fitness (cost): 0.0001595
-Iteration:   27 | best global fitness (cost): 0.0001178
-Iteration:   28 | best global fitness (cost): 0.0001178
-Iteration:   29 | best global fitness (cost): 0.0001178
-Iteration:   30 | best global fitness (cost): 0.0001178
-Iteration:   31 | best global fitness (cost): 0.0001178
-Iteration:   32 | best global fitness (cost): 0.0001178
-Iteration:   33 | best global fitness (cost): 0.0001178
-Iteration:   34 | best global fitness (cost): 0.0001178
-Iteration:   35 | best global fitness (cost): 0.0001178
-Iteration:   36 | best global fitness (cost): 0.0001178
-Iteration:   37 | best global fitness (cost): 2.91e-05
-Iteration:   38 | best global fitness (cost): 1.12e-05
-Iteration:   39 | best global fitness (cost): 1.12e-05
-Iteration:   40 | best global fitness (cost): 1.12e-05
-Iteration:   41 | best global fitness (cost): 1.12e-05
-Iteration:   42 | best global fitness (cost): 1.12e-05
-Iteration:   43 | best global fitness (cost): 1.12e-05
-Iteration:   44 | best global fitness (cost): 1.12e-05
-Iteration:   45 | best global fitness (cost): 1.12e-05
-Iteration:   46 | best global fitness (cost): 1.12e-05
-Iteration:   47 | best global fitness (cost): 2.4e-06
-Iteration:   48 | best global fitness (cost): 2.4e-06
-Iteration:   49 | best global fitness (cost): 2.4e-06
-Iteration:   50 | best global fitness (cost): 2.4e-06
+Iteration:    0 | best global fitness (cost): 4.2060194
+Iteration:    1 | best global fitness (cost): 4.2060194
+Iteration:    2 | best global fitness (cost): 4.2060194
+Iteration:    3 | best global fitness (cost): 4.2060194
+Iteration:    4 | best global fitness (cost): 4.2060194
+Iteration:    5 | best global fitness (cost): 3.0228358
+Iteration:    6 | best global fitness (cost): 2.0454478
+Iteration:    7 | best global fitness (cost): 1.647782
+Iteration:    8 | best global fitness (cost): 0.2005788
+Iteration:    9 | best global fitness (cost): 0.1981048
+Iteration:   10 | best global fitness (cost): 0.1981048
+Iteration:   11 | best global fitness (cost): 0.1981048
+Iteration:   12 | best global fitness (cost): 0.1981048
+Iteration:   13 | best global fitness (cost): 0.1981048
+Iteration:   14 | best global fitness (cost): 0.1981048
+Iteration:   15 | best global fitness (cost): 0.1981048
+Iteration:   16 | best global fitness (cost): 0.1981048
+Iteration:   17 | best global fitness (cost): 0.1981048
+Iteration:   18 | best global fitness (cost): 0.0547217
+Iteration:   19 | best global fitness (cost): 0.0367725
+Iteration:   20 | best global fitness (cost): 0.0367725
+Iteration:   21 | best global fitness (cost): 0.0367725
+Iteration:   22 | best global fitness (cost): 0.0367725
+Iteration:   23 | best global fitness (cost): 0.0367725
+Iteration:   24 | best global fitness (cost): 0.0367725
+Iteration:   25 | best global fitness (cost): 0.0367725
+Iteration:   26 | best global fitness (cost): 0.0367725
+Iteration:   27 | best global fitness (cost): 0.0367725
+Iteration:   28 | best global fitness (cost): 0.0367725
+Iteration:   29 | best global fitness (cost): 0.0367725
+Iteration:   30 | best global fitness (cost): 0.0367725
+Iteration:   31 | best global fitness (cost): 0.0367725
+Iteration:   32 | best global fitness (cost): 0.0367725
+Iteration:   33 | best global fitness (cost): 0.0367725
+Iteration:   34 | best global fitness (cost): 0.0367725
+Iteration:   35 | best global fitness (cost): 0.0367725
+Iteration:   36 | best global fitness (cost): 0.0367725
+Iteration:   37 | best global fitness (cost): 0.0196146
+Iteration:   38 | best global fitness (cost): 0.0087851
+Iteration:   39 | best global fitness (cost): 0.0087851
+Iteration:   40 | best global fitness (cost): 0.0087851
+Iteration:   41 | best global fitness (cost): 0.0087851
+Iteration:   42 | best global fitness (cost): 0.0087851
+Iteration:   43 | best global fitness (cost): 0.0087851
+Iteration:   44 | best global fitness (cost): 0.0087851
+Iteration:   45 | best global fitness (cost): 0.0087851
+Iteration:   46 | best global fitness (cost): 0.0068151
+Iteration:   47 | best global fitness (cost): 0.0068151
+Iteration:   48 | best global fitness (cost): 0.0068151
+Iteration:   49 | best global fitness (cost): 0.0068151
 
 OPTIMUM SOLUTION
-  > [1.0004123, 2.9990281]
+  > [0.9965802, 3.0395979]
 
 OPTIMUM FITNESS
-  > 2.4e-06
+  > 0.0068151
 ```
 
 Now, incase you want to plot the fitness value for each iteration, then set `plot=True` (here `Tmax=50` is the 
@@ -150,13 +149,13 @@ maximum iteration)
 You will see the following similar output:
 ```py
 OPTIMUM SOLUTION
-  > [1.0028365, 2.9977422]
+  > [0.9965802, 3.0395979]
 
 OPTIMUM FITNESS
-  > 1.45e-05
+  > 0.0068151
 ```
 
-![Fitness](https://github.com/ujjwalkhandelwal/pso_particle_swarm_optimization/blob/main/fitness.png)
+![Fitness](https://github.com/ujjwalkhandelwal/cso_cuckoo_search_optimization/blob/main/fitness.png)
 
 In case you are interested in implementing **Particle Swarm Optimization** using Python, you can visit [this link!](https://github.com/ujjwalkhandelwal/pso_particle_swarm_optimization) 
 
