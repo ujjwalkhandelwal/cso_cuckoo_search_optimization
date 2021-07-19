@@ -122,3 +122,30 @@ def fitness_4(X):
     x, y = X[0][0], X[1][0]
     f = 2*x*y + 2*x - x**2 - 2*(y**2)
     return f
+
+def fitness_5(X):
+
+    '''
+
+    X: POSITION (EITHER CURRENT, LOCAL BEST OR GLOBAL BEST) OF SIZE (n,)
+
+    2-DIMENSIONAL VECTORS (X = (x,y))
+
+    #################################################################################
+
+    BIVARIATE MICHAELWICZ FUNCTION
+
+    MINIMIZE f(x) = -sin(x)*(sin(x^2/π)^2m) - sin(y)*(sin(2y^2/π)^2m)
+
+    OPTIMUM SOLUTION IS x* = 2.20319, AND y* = 1.57049
+
+    REPLACE 'f' BELOW WITH THIS TO TEST EXAMPLE-5
+
+    f = -np.sin(x)*(np.sin(x*x/np.pi)**(2*m))-np.sin(y)*(np.sin(2*y*y/np.pi)**(2*m))
+
+    '''
+    X = np.array(X).reshape(-1,1)
+    m = 10
+    x, y = X[0][0], X[1][0]
+    f = -np.sin(x)*(np.sin(x*x/np.pi)**(2*m))-np.sin(y)*(np.sin(2*y*y/np.pi)**(2*m))
+    return f
