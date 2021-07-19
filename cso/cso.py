@@ -1,8 +1,8 @@
 ################################################################################
 #                                                                              #
-#	UJJWAL KHANDELWAL                                                          #    
-#	CSO (CUCKOO SEARCH OPTIMIZATION)                                           #
-#	PYTHON 3.7.10                                                              #
+#	UJJWAL KHANDELWAL                                                        #    
+#	CSO (CUCKOO SEARCH OPTIMIZATION)                                         #
+#	PYTHON 3.7.10                                                            #
 #                                                                              #
 ################################################################################
 
