@@ -196,7 +196,7 @@ class CSO:
         if self.bound is not None:
             for i in range(self.n):
                 xmin, xmax = self.bound[i]
-                self.X[i] = np.clip(self.X[i], xmin, xmax)
+                self.X[:,i] = np.clip(self.X[:,i], xmin, xmax)
 
     def execute(self):
 
