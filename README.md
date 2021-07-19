@@ -41,8 +41,15 @@ Next, a fitness function (or cost function) is required. I have included **four*
     
 `Optimum solution`:  ***x = 2 ; y = 1***
 
+### Fitness-5 (Bivariate Michaelwicz function)
+`Minimize:` **f(x) = -sin(x)(sin<sup>2m</sup>(x<sup>2</sup>/π)) - sin(y)(sin<sup>2m</sup>(2y<sup>2</sup>/π))**
+    
+ When the bound is **(x,y) ∈ (0,5) x (0,5)** and **m=10** [1]
+ 
+`Optimum solution`:  ***x = 2.20319 ; y = 1.57049***
+
 ```py
->>> from fitness import fitness_1, fitness_2, fitness_3, fitness_4
+>>> from fitness import fitness_1, fitness_2, fitness_3, fitness_4, fitness_5
 ```
 
 Now, if you want, you can provide bound values for all the particles (not mandatory) and optimize (minimize or maximize) the fitness function using CSO:
@@ -50,15 +57,15 @@ Now, if you want, you can provide bound values for all the particles (not mandat
 **NOTE:** a bool variable `min=True` (default value) for *MINIMIZATION PROBLEM* and `min=False` for *MAXIMIZATION PROBLEM*
 
 ```py
->>> CSO(fitness=fitness_1, bound=[(-4,4),(-4,4)]).execute()
+>>> CSO(fitness=fitness_5, bound=[(0,5),(0,5)]).execute()
 ```
 You will see the following similar output (there can be other minima as well):
 ```py
 OPTIMUM SOLUTION
-  > [3.0000078, 1.9999873]
+  > [2.2028966, 1.5707915]
 
 OPTIMUM FITNESS
-  > 0.0
+  > -1.8013034
 ```
 When **fitness_4** is used, observe that `min=False` since it is a Maximization problem.
 
