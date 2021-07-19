@@ -1,8 +1,8 @@
 ################################################################################
 #                                                                              #
-#	UJJWAL KHANDELWAL                                                        #    
-#	CSO (CUCKOO SEARCH OPTIMIZATION)                                         #
-#	PYTHON 3.7.10                                                            #
+#	UJJWAL KHANDELWAL                                                      #    
+#	CSO (CUCKOO SEARCH OPTIMIZATION)                                       #
+#	PYTHON 3.7.10                                                          #
 #                                                                              #
 ################################################################################
 
@@ -138,7 +138,7 @@ class CSO:
         
         pa ∈ [0,1] (ALSO CALLED ASSIGNED PROBABILITY) AND BUILD A COMPLETELY 
         
-        NEW NEST. FIRSTWE CHOOSE A RANDOM NUMBER r ∈ [0,1] AND IF r < pa,
+        NEW NEST. FIRST WE CHOOSE A RANDOM NUMBER r ∈ [0,1] AND IF r < pa,
 
         THEN 'X' IS SELECTED AND MODIFIED ELSE IT IS KEPT AS IT IS. 
 
