@@ -19,7 +19,7 @@ Once the installation is finished (download or cloning), go the cso folder and f
 ```py
 >>> from cso import CSO
 ```
-Next, a fitness function (or cost function) is required. I have included **four** different fitness functions for example purposes namely `fitness_1`, `fitness_2`, `fitness_3`, and `fitness_4`.
+Next, a fitness function (or cost function) is required. I have included **five** different fitness functions for example purposes namely `fitness_1`, `fitness_2`, `fitness_3`, `fitness_4` and `fitness_5`.
 
 ### Fitness-1 (Himmelblau's Function)
 `Minimize:` **f(x) = (x<sup>2</sup> + y - 11)<sup>2</sup> + (x + y<sup>2</sup> - 7)<sup>2</sup>**
